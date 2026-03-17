@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Assistant</title>
+</head>
+<body>
+
+<h1>Health Assistant App</h1>
+
+<h3>Enter Symptoms:</h3>
+<input type="text" id="symptoms" placeholder="e.g. fever, cough">
+<button onclick="checkDisease()">Check</button>
+
+<h3>Result:</h3>
+<p id="disease"></p>
+<ul id="doctors"></ul>
+
+<hr>
+
+<h3>Medicine Reminder</h3>
+<input type="text" id="medicine" placeholder="Medicine name">
+<input type="number" id="time" placeholder="Time (seconds)">
+<button onclick="setReminder()">Set Reminder</button>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
